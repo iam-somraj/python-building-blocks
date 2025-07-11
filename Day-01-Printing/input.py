@@ -12,3 +12,6 @@ in_put = input().lower()
 
 # to take input in uppercase:
 in_put = input().upper()
+
+# to print message while taking input:
+in_put = input("Enter here: ")
