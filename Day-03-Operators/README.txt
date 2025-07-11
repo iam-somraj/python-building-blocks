@@ -47,7 +47,7 @@ a. and
 The "and" operator returns True if both statements are true.
 
 b. or
-
+The "or" operator returns True if at least one statement is true.
 
 c. not
 
