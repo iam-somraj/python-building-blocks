@@ -44,5 +44,10 @@ Logical operators are used to combine the conditional statements.
 Python has three logical operators:
 
 a. and
+The "and" operator returns True if both statements are true.
+
 b. or
+
+
 c. not
+
