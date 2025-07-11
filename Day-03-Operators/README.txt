@@ -50,4 +50,4 @@ b. or
 The "or" operator returns True if at least one statement is true.
 
 c. not
-
+The "not" operator returns True if the statement is false, and False if the statement is true.
