@@ -10,4 +10,5 @@ in_put = input()
 # to take input in lowercase:
 in_put = input().lower()
 
-
+# to take input in uppercase:
+in_put = input().upper()
