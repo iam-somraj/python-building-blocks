@@ -38,3 +38,19 @@ c = 7
 
 #------------------------------------------------------------------------------------
 
+#Comparison Operators
+n1 = 8
+n2 = 9
+n3 = n1==n2
+n4 = n1!=n2
+n5 = n1>n2
+n6 = n1<n2
+n7 = n1>=n2
+n8 = n1<=n2
+
+print(f"n3 = {n3}, n4 = {n4}, n5 = {n5}, n6 = {n6}, n7 = {n7}, n8 = {n8}")
+
+#Output:
+n3 = False, n4 = True, n5 = False, n6 = True, n7 = False, n8 = True
+
+
