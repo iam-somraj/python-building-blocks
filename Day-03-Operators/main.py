@@ -75,3 +75,13 @@ Can entry: False
 
 #---------------------------------------------------------------------------------------
 
+#Logical Operators with Truth Table references
+a = True
+b = True
+c = False
+
+d = a and b and (not c)
+print(f"d = {d}")
+
+#Output:
+d = True
