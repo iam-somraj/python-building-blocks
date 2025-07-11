@@ -37,3 +37,12 @@ Greater Than or Equal: >=
 Less Than or Equal: <=
 
 
+4. Logical Operators
+
+Logical operators are used to combine the conditional statements.
+
+Python has three logical operators:
+
+a. and
+b. or
+c. not
