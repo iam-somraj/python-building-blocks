@@ -62,8 +62,8 @@ has_identity = True
 result = age >= 18 and has_identity
 result1 = age >= 18 or has_identity
 result2 = age >= 18 and not has_identity
+#In Python, the "not" operator should come before the variable, and you need "and" to connect the conditions.
 
-# Don't change the line below
 print("Can entry:", result)
 print("Can entry:", result1)
 print("Can entry:", result2)
