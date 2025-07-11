@@ -53,4 +53,25 @@ print(f"n3 = {n3}, n4 = {n4}, n5 = {n5}, n6 = {n6}, n7 = {n7}, n8 = {n8}")
 #Output:
 n3 = False, n4 = True, n5 = False, n6 = True, n7 = False, n8 = True
 
+#---------------------------------------------------------------------------------------
+
+#Logical Operators
+age = 18
+has_identity = True
+
+result = age >= 18 and has_identity
+result1 = age >= 18 or has_identity
+result2 = age >= 18 and not has_identity
+
+# Don't change the line below
+print("Can entry:", result)
+print("Can entry:", result1)
+print("Can entry:", result2)
+
+#Output:
+Can entry: True
+Can entry: True
+Can entry: False
+
+#---------------------------------------------------------------------------------------
 
