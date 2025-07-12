@@ -22,3 +22,21 @@ else:
 print(f"status = {status}") #Breeze
 
 #-----------------------------------------------------------
+
+#Nested If - Else Statement
+age = 18
+title = "None"
+allowed_to_drive = False
+driving_license = input("Do you have license ? (Y/N) ").upper() #y
+if age >= 18:
+    title = "Adult"
+    if driving_license == 'Y' :
+        allowed_to_drive = True
+    else:
+        allowed_to_drive = False
+else:
+    title = "Minor"
+
+print(f"You're {allowed_to_drive} to drive") #You're True to drive
+
+#------------------------------------------------------------
