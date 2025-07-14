@@ -8,3 +8,14 @@ for i in range(0, 5):
 3
 4
 
+
+#While loop statement
+number = 31
+power = 1
+
+while power <= number:
+    power *= 2
+print(power)
+
+#Output
+32
