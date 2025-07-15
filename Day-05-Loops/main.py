@@ -19,3 +19,31 @@ print(power)
 
 #Output
 32
+
+
+#Break Statement (breaking buddy)
+for i in range(11):
+    if i == 5:
+        break
+    print(i)
+
+#Output
+0
+1
+2
+3
+4
+
+#Continue Statement (skipping buddy)
+for i in range(0, 10):
+    if i%2 != 0:
+        continue
+    print(i)
+
+#Output
+0
+2
+4
+6
+8
+
