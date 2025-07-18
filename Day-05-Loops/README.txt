@@ -11,7 +11,7 @@ The break statement stops the loop instantly when it's certain condition is met.
 The continue statement stops the current iteration (condition) and continues to the upcoming iteration. 
 
 #Range() 
-The range() function generates a sequence of numbers, which is commonly used with "For Loops" to repeat the code a specific number of times.
+The range() function generates a sequence of numbers, which is commonly used with the "For Loops" to repeat the code a specific number of times.
 
 #Nested Loop  
-A nested loop is a loop inside another loop. The inner loop completes all its iterations for each iteration of the outer loop.
+It is a type of loop inside another loop(s). The inner loop(s) completes all it's iterations for each iteration of the outer loop(s).
