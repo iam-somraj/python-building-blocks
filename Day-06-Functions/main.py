@@ -1,3 +1,24 @@
+def hello_function():
+    print("Hello World!")
+
+n = int(input())
+
+for i in range(n):
+    hello_function()
+
+#Input:
+6
+
+#Output:
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+
+#--------------------------------------------------------
+
 no_of = int(input())
 
 def cal_sol():
@@ -10,11 +31,16 @@ for i in range(no_of):
     cal_sol()
 
 #Input:
-5
+4
 
 #Output:
 50005000
 50005000
 50005000
 50005000
-50005000
+
+#--------------------------------------------------------
+
+#Arguments
+
+
