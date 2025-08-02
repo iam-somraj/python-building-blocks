@@ -41,14 +41,52 @@ for i in range(no_of):
 
 #--------------------------------------------------------
 
-#Arguments:
-def is_even(number):
-    if number % 2 == 0:
-        print(f"{number} is even")
-    else:
-        print(f"{number} is odd")
+#Argument:
+def mult(a, b):
+    print(a * b)
 
-for i in range(15, 34):
-    is_even(i)
-for i in range(153, 219):
-    is_even(i)
+a = int(input())
+b = int(input())
+mult(a, b)
+
+#Input:
+4
+5
+
+#Output:
+20
+
+#-------------------------------------------------------
+
+def calculate_area(length, width):
+    print(length * width)
+
+length = float(input())
+width = float(input())
+
+calculate_area(length, width)
+
+#Input:
+4
+5
+
+#Output:
+15.0
+
+#-----------------------------------------------------
+
+#Returns
+def square_num(n):
+    return n * n
+
+num = int(input())
+
+result = square_num(num)
+print(result)
+
+#Input:
+6
+
+#Output:
+36
+
