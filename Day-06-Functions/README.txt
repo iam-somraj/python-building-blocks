@@ -6,3 +6,8 @@ An argument in a function is a value that you pass into the function when you ca
 
 Returns:
 The return statement in a function is used to specify the value or values that the function should produce as its output.
+
+Default Values:
+A arguments in functions can have predetermined default values too, but make sure that predetermined argument is present only at the last in sequence.
+Incorrect - def intro(back="World!", front):
+Correct - def intro(front, back="World!"):
